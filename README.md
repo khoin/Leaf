@@ -13,6 +13,10 @@ Extension for Audiotool website.
 * Resizing comment, preference textareas
 * Includes [Listen](http://github.com/potasmic/Listen)
 
+## License
+
+[GNU GPL](http://www.gnu.org/copyleft/gpl.html)
+
 ## Problems
 
 **THESE CODES ARE REALLY MESSY AND I HATE THEM A LOT I NEED TO REWRITE BUT IM LAZY OR I EITHER HAVE MANY OTHER PROJECTS. I AM SORRY.**

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Leaf (for Audiotool)",
+  "description": "An add-on for Audiotool Website, provides information for tracks. Plus, basic statistics tracking!",
+  "version": "1.0.5",
+  "background": {
+        "scripts": ["background.js"]
+    },
+  "icons": { 
+          "128": "icon_128.png" },
+  "permissions": [
+    "http://api.audiotool.com/*", "tabs",
+    "unlimitedStorage"
+  ],
+  "author": "Khoi Nguyen",
+  "page_action": {
+	  "default_icon": "icon38.png",
+	  "default_title": "Leaf for Audiotool",
+	  "default_popup": "popup.html"
+    },
+  "content_scripts": [
+    {
+      "matches": ["*://*.audiotool.com/*"],
+	  "exclude_matches": ["*://*.audiotool.com/app*"],
+      "js": ["Leaf.js"],
+	  "run_at" : "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "Leaf.js"
+	],
+  "short_name": "Leaf"
+}
