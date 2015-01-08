@@ -1,5 +1,5 @@
 # Leaf
-Extension for Audiotool website.
+Was an extension for Audiotool website.
 
 ![Leaf](http://i.imgur.com/hTcHlKh.png)
 
@@ -17,6 +17,6 @@ Extension for Audiotool website.
 
 [GNU GPL](http://www.gnu.org/copyleft/gpl.html)
 
-## Problems
+## Deprecated
 
-**THESE CODES ARE REALLY MESSY AND I HATE THEM A LOT I NEED TO REWRITE BUT IM LAZY OR I EITHER HAVE MANY OTHER PROJECTS. I AM SORRY.**
+Audiotool has a new layout now. That means this breaks.
